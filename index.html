@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/principal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">       
+    
+    <script src="scripts/scripts.js"></script>
+    
+    <title>Pratica 01</title>
+
+</head>
+<body>
+    
+    <header>
+        <H1>A.A Imóveis</H1>
+        <img src="/img/web-house.png" alt="">
+    </header>
+
+    <div id="area">
+        
+        <br>
+            <form action="formulario"> 
+                <legend>Inserir Anúncio</legend>
+                <label>Titulo</label>     
+                <input  class="text" id="input1" type="text" name="Titulo" > <br>
+                
+                <label>Descrição</label>     
+                <input class="text" id="input2" type="text" name ="Descrição">  <br>
+    
+                <label>Quartos</label>
+                <input class="text" id="input3" type="number" name ="Quartos">  <br>
+    
+                <label>Vagas de garagem</label>
+                <input class="text" id="input4" type="number" name ="Vagas de garagem">  <br>
+    
+                <label>Area do terreno</label>
+                <input class="text" id="input5" type="number" name ="Area do terreno">  <br>
+    
+                <label>Area construída</label>
+                <input class="text" id="input6" type="number" name ="Area construida"> <br>
+    
+                <label>Localidade</label>
+                <input class="text" id="input7" type="text" name ="Localidade"> <br>
+    
+                <label>Preço</label>
+                <input class="text" id="input8" type="number" name="Preço"> <br>
+    
+                <label>Imagem</label>
+                <input class="text" id="input9" type="url" name=""> <br>
+    
+                <button id="inserir" type="button" onclick="adicionar()" > Inserir</button>
+
+                <button name="Limpar" type="button" onclick="limpar()" > Limpar </button>
+
+                <legend id="listagem">Listagem de anúncios</legend>
+
+            </form>
+
+            <table id="tabela" border="1px" width="80%">
+                <tr>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Quartos</th>
+                    <th>Vagas de garragem</th>
+                    <th>Área do terreno</th>
+                    <th>Área construída</th>
+                    <th>Localidade</th>
+                    <th>Preço</th>
+                    <th>Imagem</th>
+                </tr>
+    
+                <tr>
+                    <td class="first">
+                        <p id="add"></p>
+                    </td>
+                    <td>
+                        <p id="add1"></p>
+                    </td>
+                    <td>
+                        <p id="add2"></p>
+                    </td>
+                    <td>
+                        <p id="add3"></p>
+                    </td>
+                    <td>
+                        <p id="add4"></p>
+                    </td>
+                    <td>
+                        <p id="add5"></p>
+                    </td>
+                    <td>
+                        <p id="add6"></p>
+                    </td>
+                    <td>
+                        <p id="add7"></p>
+                    </td>
+                    <td>
+                        <img id="add8" src="" alt="">
+                    </td>
+                </tr>
+    
+            </table>
+        <br/>
+    </div>
+</body>
+</html>

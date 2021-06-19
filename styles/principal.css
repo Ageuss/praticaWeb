@@ -1,0 +1,139 @@
+html{
+    font-family: 'Do Hyeon', sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(224, 224, 224);    
+}
+
+header { 
+    background-color: rgb(49, 122, 161);
+    color: black;
+    height: 150px;
+    width: 100%;
+    position: relative;    
+}
+
+header h1 {
+    position: relative;
+    top: 110px;
+    left: 5px;
+    color: rgb(226, 222, 222);
+    margin: 0px 0px 0px 20px;
+}
+
+header img {
+    width: 50px;
+    margin: 55px 0px 0px 195px;
+}
+
+form {
+    margin: 0%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+form legend {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form input{
+    height: 25px;
+    border-radius: 4px;
+    justify-content: space-between;  
+    margin-bottom: 15px;
+}
+
+form #input1{
+    width: 283px;
+}
+
+form #input2{
+    width: 244px;
+}
+
+form #input3{
+    width: 262px;
+}
+
+form #input4{
+    width: 174px;
+}
+
+form #input5{
+    width: 195px;
+}
+
+form #input6{
+    width: 195px;
+}
+
+form #input7{
+    width: 241px;
+}
+
+form #input8{
+    width: 278px;
+}
+
+form #input9{
+    width: 261px;
+}
+
+form label {
+    font-size: 20px;
+    margin-bottom: 5px;  
+}
+
+form button  {  
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    background: rgb(49, 122, 161);
+    color: white;
+    border-color: rgb(49, 122, 161);
+}
+
+#inserir{
+    margin: 0px 20px 0px 55px;
+}
+
+form button:hover{
+    background: rgb(43, 106, 139);
+    cursor: pointer;
+}
+
+#listagem{
+    margin-top: 100px;
+}
+
+table{
+    margin: 650px 0px 0px 150px;
+    border: 1px;
+    border-style: solid; 
+    align-items: center;
+    text-align: center;
+}
+
+table tr th{
+    background: rgb(189, 188, 188);
+}
+
+table tr td img{
+    width: 250px;
+    height: 200px;
+}
+
